@@ -1,0 +1,59 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" type="text/css" href="./css/bootstrap.css">
+  <link rel="stylesheet" type="text/css" href="./css/popup.css">
+</head>
+
+<body>
+  <div class="row d-flex justify-content-center align-items-center">
+    <div class="col-2"></div>
+    <div class="col-8 d-flex justify-content-center align-items-center"><h3>选择功能</h3></div>
+    <div class="col-2"></div>
+  </div>
+  <div class="row">
+    <div class="card" style="width: 18rem;">
+      <ul class="list-group list-group-flush">
+        <li class="list-group-item">
+          <div class="form-check form-switch">
+            <input class="form-check-input" type="checkbox" role="switch" id="feature1">
+            <label class="form-check-label" for="feature1">识别行内代码</label>
+          </div>
+        </li>
+        <li class="list-group-item">
+          <div class="form-check form-switch">
+            <input class="form-check-input" type="checkbox" role="switch" id="feature2">
+            <label class="form-check-label" for="feature2">功能2</label>
+          </div>
+        </li>
+        <li class="list-group-item">
+          <div class="form-check form-switch">
+            <input class="form-check-input" type="checkbox" role="switch" id="feature3">
+            <label class="form-check-label" for="feature3">功能3</label>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+  <div class="row">
+    <div id="test" class="alert alert-primary" role="alert" style="margin-top: 10px;">
+      一切正常:&rpar;
+    </div>
+  </div>
+  <div class="row d-flex justify-content-center align-items-center">
+    <div class="col-3"></div>
+    <div class="col-6">
+      <button id="save" class="btn btn-primary" type="submit">保存设置</button>
+    </div>
+    <div class="col-3"></div>
+  </div>
+  <script src="./scripts/popup.js"></script>
+  <script src="./scripts/bootstrap.js"></script>
+</body>
+
+</html>
