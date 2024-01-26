@@ -150,7 +150,8 @@ function applyRule(rule, text) {
 //功能01
 function func_01(text){
     console.log("func_01 start, text=", text);
-    text = text.replace(/(?<!`)\b([a-zA-Z0-9]+([-\s_.][a-zA-Z0-9]+)*)\b(?!`)/g, '`$1`');
+    text = text.replace(/`/g, '')
+    text = text.replace(/(?<!`)[(@]?\b([a-zA-Z0-9]+[-\s_.()a-zA-Z0-9]*)\b[)]*(?!`)/g, '`$&`');
     console.log("func_01 -over, text=", text);
     return text;
 }
