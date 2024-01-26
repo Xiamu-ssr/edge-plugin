@@ -2,7 +2,10 @@
 ![icon48](https://github.com/Xiamu-ssr/edge-plugin/assets/77220168/bbb5a0b9-0dbc-4839-9fc0-630f7540f363)
 v1.0
 
-简单的Edge浏览器插件，主要面向CSDN等基于MD撰写文章时的便捷工具。edge插件商店搜索"MD Tools"即可。
+简单的Edge浏览器插件，主要面向CSDN等基于MD撰写文章时的便捷工具。
+
+edge插件商店搜索"MD Tools"即可，或者[点击这里转到插件商店页面](https://microsoftedge.microsoft.com/addons/detail/md-tools/bblnfjadidioifeemdcjkdigaijdileh)。
+
 
 ## 目前支持的功能
 
