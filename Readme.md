@@ -6,7 +6,8 @@ v1.0
 
 ## 目前支持的功能
 
-### 功能1. 识别行内代码
+### 功能一. 识别行内代码
+#### 示例1
 **原文**
 ```text
 这边采用常用的消费者-生产者模型，使用默认的Direct类型exchange。
@@ -22,3 +23,28 @@ v1.0
 ```
 这边采用常用的消费者-生产者模型，使用默认的`Direct`类型`exchange`。
 不懂的可以先继续学习`rabbitmq`再来实践。
+
+#### 示例2
+**原文**
+```text
+定义`GlobalExceptionHandler`类，拦截所有异常。
+@RestControllerAdvice注解使得你可以在GlobalExceptionHandler 中处理异常，
+`@ExceptionHandle`注解用于将指定异常绑定到处理的函数上。
+如下使用`@ExceptionHandler(Exception.class)`即对所有异常进行捕获处理。
+```
+定义`GlobalExceptionHandler`类，拦截所有异常。
+@RestControllerAdvice注解使得你可以在GlobalExceptionHandler 中处理异常，
+`@ExceptionHandle`注解用于将指定异常绑定到处理的函数上。
+如下使用`@ExceptionHandler(Exception.class)`即对所有异常进行捕获处理。
+
+**新文**
+```text
+定义`GlobalExceptionHandler`类，拦截所有异常。
+`@RestControllerAdvice`注解使得你可以在`GlobalExceptionHandler` 中处理异常，
+`@ExceptionHandle`注解用于将指定异常绑定到处理的函数上。
+如下使用`@ExceptionHandler(Exception.class)`即对所有异常进行捕获处理。
+```
+定义`GlobalExceptionHandler`类，拦截所有异常。
+`@RestControllerAdvice`注解使得你可以在`GlobalExceptionHandler` 中处理异常，
+`@ExceptionHandle`注解用于将指定异常绑定到处理的函数上。
+如下使用`@ExceptionHandler(Exception.class)`即对所有异常进行捕获处理。
